@@ -1,31 +1,52 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 using System.IO;
+using AnotherFileBrowser.Windows;
 
 public class ExportCard : MonoBehaviour
 {
-    public TextMeshProUGUI collectorsID;
-    public int currentCard;
-    public int totalCard;
+    public RenderTexture rt;
 
-    public RenderTexture cardOutput;
+    public void SaveCard()
+    {
+        var bp = new BrowserProperties();
+        bp.filter = "Image files (*.png) | *.png";
+        bp.filterIndex = 0;
 
-    public void SaveCard(){
-        Texture2D card = new Texture2D(cardOutput.width, cardOutput.height, TextureFormat.RGBAHalf, false);
-        RenderTexture.active = cardOutput;
-        card.ReadPixels(new Rect(0, 0, cardOutput.width, cardOutput.height), 0, 0);
-        RenderTexture.active = null;
-
-        byte[] bytes = card.EncodeToPNG();
-        string filePath = Application.dataPath + "/" + currentCard + "_" + totalCard + ".png";
-        File.WriteAllBytes(filePath, bytes);
-
-        currentCard++;
+        new FileBrowser().OpenSaveBrowser(bp, path =>
+        {
+            StartCoroutine(SaveImage(path));
+        });
     }
 
-    void Update(){
-        collectorsID.text = currentCard.ToString() + "/" + totalCard.ToString();
+    IEnumerator SaveImage(string path)
+    {
+        if (!path.Contains(".png"))
+        {
+            path += ".png";
+        }
+
+        // Wait for the end of the frame to ensure that the RenderTexture was completely drawn
+        yield return new WaitForEndOfFrame();
+
+        // Convert the RenderTexture to a Texture2D
+        Texture2D texture = new Texture2D(rt.width, rt.height, TextureFormat.RGB24, false);
+        RenderTexture.active = rt;
+        texture.ReadPixels(new Rect(0, 0, rt.width, rt.height), 0, 0);
+        texture.Apply();
+        RenderTexture.active = null;
+
+        // Convert the Texture2D to a .png format
+        byte[] pngData = texture.EncodeToPNG();
+
+        // Save the png data to a file
+        if (pngData != null)
+        {
+            File.WriteAllBytes(path, pngData);
+        }
+        else
+        {
+            Debug.LogError("Failed to convert Texture2D to PNG.");
+        }
     }
 }

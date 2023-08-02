@@ -1,0 +1,858 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.26f1 (a16dc32e0ff2) revision 10579395'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 16084 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+C:/Users/jacob/Desktop/Rhystic-Sentinel
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+49833
+Successfully changed project path to: C:/Users/jacob/Desktop/Rhystic-Sentinel
+C:/Users/jacob/Desktop/Rhystic-Sentinel
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [26948] Host "[IP] 192.168.1.148 [Port] 0 [Flags] 2 [Guid] 722079330 [EditorId] 722079330 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [26948] Host "[IP] 192.168.1.148 [Port] 0 [Flags] 2 [Guid] 722079330 [EditorId] 722079330 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 121.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jacob/Desktop/Rhystic-Sentinel/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3976 MB
+    Driver:   31.0.15.3640
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005790 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 89.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.672 seconds
+Domain Reload Profiling:
+	ReloadAssembly (672ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (491ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (104ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (310ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005084 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jacob\Desktop\Rhystic-Sentinel\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jacob\Desktop\Rhystic-Sentinel\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 90.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.275 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1276ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1071ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (338ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (502ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (285ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+State comes from an incompatible keyword space
+State comes from an incompatible keyword space
+State comes from an incompatible keyword space
+State comes from an incompatible keyword space
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3850 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (61.6 MB). Loaded Objects now: 4311.
+Memory consumption went from 149.9 MB to 88.2 MB.
+Total: 6.131100 ms (FindLiveObjects: 0.496700 ms CreateObjectMapping: 0.135800 ms MarkObjects: 5.323100 ms  DeleteObjects: 0.173300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12103.863957 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000360.png
+  artifactKey: Guid(70fff4e33641e34458b0433cc17c993c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000360.png using Guid(70fff4e33641e34458b0433cc17c993c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4814028cacc79b1a62fada63b7f4f7d') in 0.210004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000032.png
+  artifactKey: Guid(a2e236f79ac4f584e9420b8fa4c2ce43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000032.png using Guid(a2e236f79ac4f584e9420b8fa4c2ce43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b943c6cfea599d9cba286ccd4c637bf9') in 0.110869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000447.png
+  artifactKey: Guid(c93a6fdaba5b4814a923c1bdd47229e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000447.png using Guid(c93a6fdaba5b4814a923c1bdd47229e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4cadb96babf0cef88a6780946b85fda') in 0.115544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000095.png
+  artifactKey: Guid(f554830c78f84d64fb22a30fa45c0b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000095.png using Guid(f554830c78f84d64fb22a30fa45c0b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5bfe634d4261e378b8fa196900ef134') in 0.107000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000114.png
+  artifactKey: Guid(1aa9b81cc99dfbd4dba125d8eb402740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000114.png using Guid(1aa9b81cc99dfbd4dba125d8eb402740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250246df94ab891e4799de86fd3911ad') in 0.110808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000461.png
+  artifactKey: Guid(36e20bca32dc4074680e43fc762032dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000461.png using Guid(36e20bca32dc4074680e43fc762032dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c891649ba61c7cef3fbf32444e0c7955') in 0.127301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000119.png
+  artifactKey: Guid(ca1b2b6e24e50b844bb9970a4c933d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000119.png using Guid(ca1b2b6e24e50b844bb9970a4c933d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb69353ae973b788ad541892b6fbd92') in 0.107365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000180.png
+  artifactKey: Guid(00729f0c72b887749978abff0c3f6d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000180.png using Guid(00729f0c72b887749978abff0c3f6d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb83b4b59932f510b7876bbebb9b94a') in 0.109126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000530.png
+  artifactKey: Guid(0ee21b02fb0986c468d8e66c0b6dc60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000530.png using Guid(0ee21b02fb0986c468d8e66c0b6dc60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c5c5d7577b0816187395abff69cec1') in 0.105789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000198.png
+  artifactKey: Guid(01c07cb4d30dac64b951d64bb708f988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000198.png using Guid(01c07cb4d30dac64b951d64bb708f988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df33e231af2b61e60f8051d99df9600b') in 0.099789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000064.png
+  artifactKey: Guid(7ff3a27442f81114ea76d23d4739e98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000064.png using Guid(7ff3a27442f81114ea76d23d4739e98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd8635058df5419682dbc6d5cb8fed45') in 0.112868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000468.png
+  artifactKey: Guid(81a9cfe46f2ac87459dabf07a1407ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000468.png using Guid(81a9cfe46f2ac87459dabf07a1407ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbdef6f296ff3699eea4872857b2c058') in 0.112507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000112.png
+  artifactKey: Guid(f39df1927c86ab3408fbed04992f1d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000112.png using Guid(f39df1927c86ab3408fbed04992f1d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727bceea96f4ddfac81c563fe0e54da4') in 0.117101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000190.png
+  artifactKey: Guid(292eaea402bfa6b48a937f3bca9b341d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000190.png using Guid(292eaea402bfa6b48a937f3bca9b341d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423cf516eef1a621ecf2306daf9e9729') in 0.119609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000004.png
+  artifactKey: Guid(8e1909d6f0801e4429acc7e36fa34994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000004.png using Guid(8e1909d6f0801e4429acc7e36fa34994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c998115e9fe2ba5d0d60d9ba7704d2') in 0.122169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000132.png
+  artifactKey: Guid(6c3682d7079b6824c9c8fdd70c13958d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000132.png using Guid(6c3682d7079b6824c9c8fdd70c13958d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc126200d4fedae1109d3a519eeb52a') in 0.102335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000412.png
+  artifactKey: Guid(6d823f92027e56848ae36eaf43f66911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000412.png using Guid(6d823f92027e56848ae36eaf43f66911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49267045efb0d647c28405daf0a7736') in 0.096438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000210.png
+  artifactKey: Guid(a73dc71abd8436c46898d1e48d052af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000210.png using Guid(a73dc71abd8436c46898d1e48d052af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995ffced1e20ae99e302ad46271d148c') in 0.108109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000140.png
+  artifactKey: Guid(40252528c16ca46498a0c4c2bfbefa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000140.png using Guid(40252528c16ca46498a0c4c2bfbefa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2cea178434b5176dfb4dd350033ddf') in 0.094177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000315.png
+  artifactKey: Guid(ba00b6d2dd7c9f84d942772956b2dabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000315.png using Guid(ba00b6d2dd7c9f84d942772956b2dabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f581fabf68b6929df5aff70f1a5088') in 0.104691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000426.png
+  artifactKey: Guid(3952c88deb41b3c458f270a9942934df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000426.png using Guid(3952c88deb41b3c458f270a9942934df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418c281975390bacf8ff8ab9a7b94143') in 0.117348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000486.png
+  artifactKey: Guid(b82a5b96906f68444ac9b04627b9ec05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000486.png using Guid(b82a5b96906f68444ac9b04627b9ec05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3705ff265b4d2f5cdff3404019a679d3') in 0.119135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000353.png
+  artifactKey: Guid(83a12b69df066c843b0c7e6bb44795a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000353.png using Guid(83a12b69df066c843b0c7e6bb44795a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20bc46696bca29538d161d0b4f15b9ac') in 0.097162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000491.png
+  artifactKey: Guid(a40ca4b08ca86cb46ab753a848738e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000491.png using Guid(a40ca4b08ca86cb46ab753a848738e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834f06cd34d0166e790b725e69be2b9d') in 0.117601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000147.png
+  artifactKey: Guid(086d9543d633df14981c15d699ce07eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000147.png using Guid(086d9543d633df14981c15d699ce07eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca2e6ebe21e8b4c64928df0e7d18fb4') in 0.129637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000492.png
+  artifactKey: Guid(663f3ef9f0937c847abaa468536d589b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000492.png using Guid(663f3ef9f0937c847abaa468536d589b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2081095da5ab45de2ce79072b0c4d303') in 0.112197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000458.png
+  artifactKey: Guid(28a70a11921fd2945a3ce10eab15e238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000458.png using Guid(28a70a11921fd2945a3ce10eab15e238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec5fbfbd173bf8899ee4650fea371d3') in 0.120786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000145.png
+  artifactKey: Guid(df049b9fac214be4196660519f83e07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000145.png using Guid(df049b9fac214be4196660519f83e07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e0203ca7c33a427763ffbaa25c96fc') in 0.103391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000079.png
+  artifactKey: Guid(d88e95cd1c321de4391261822a0b02d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000079.png using Guid(d88e95cd1c321de4391261822a0b02d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ffc29833764d6a1d9f8f0d0c582484e') in 0.108287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000346.png
+  artifactKey: Guid(21056b546fc7fbf43bd8610ef95958f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000346.png using Guid(21056b546fc7fbf43bd8610ef95958f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b92a184c88056bce3259c8b0c84eeaa') in 0.119713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000123.png
+  artifactKey: Guid(351afa332c244f44191c5b358f4a8b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000123.png using Guid(351afa332c244f44191c5b358f4a8b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc948f429f077c1b3bb80c37357c5e6c') in 0.099470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000418.png
+  artifactKey: Guid(9625fd12b86142a4288aea31914909c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000418.png using Guid(9625fd12b86142a4288aea31914909c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27dc813ac76d27b2ef10b2101956e22a') in 0.106820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000146.png
+  artifactKey: Guid(13bb2eaf5d1c33c4b8b465320098255f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000146.png using Guid(13bb2eaf5d1c33c4b8b465320098255f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e514d12cccbeb18d909020469bf54b95') in 0.105821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000401.png
+  artifactKey: Guid(c290035ded9bc834a89a50fd42d757b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000401.png using Guid(c290035ded9bc834a89a50fd42d757b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ba7aefb2d6b8b040fa86e34cba7ed8') in 0.119858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000308.png
+  artifactKey: Guid(2f33b1ba8ff920a42b32ba0c751d4533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000308.png using Guid(2f33b1ba8ff920a42b32ba0c751d4533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89bd08720f286ab1621583f0587ec42e') in 0.107905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000283.png
+  artifactKey: Guid(8fe959ab35d9f6e4a8266b941c8d9659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000283.png using Guid(8fe959ab35d9f6e4a8266b941c8d9659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f97fddf938f433048c3859e7a8f02d') in 0.100769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000094.png
+  artifactKey: Guid(08fb7b23f8fd77b4ea52e9111f7a7334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000094.png using Guid(08fb7b23f8fd77b4ea52e9111f7a7334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb246016d1db43cfec61fa3ad0e39d2') in 0.113181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000431.png
+  artifactKey: Guid(195ca12c3e6629847a852cabc8653dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000431.png using Guid(195ca12c3e6629847a852cabc8653dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9d854a3c2e4b670b17ce74757010a1') in 0.096859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000421.png
+  artifactKey: Guid(51b79720c51e33643b399387ac62de08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000421.png using Guid(51b79720c51e33643b399387ac62de08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e70cc954664961baff55647c881f3c') in 0.129285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000271.png
+  artifactKey: Guid(2786ab1581bcfc44f99c403c31163236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000271.png using Guid(2786ab1581bcfc44f99c403c31163236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4851fd760628808f5a33cdb65893659') in 0.104495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000519.png
+  artifactKey: Guid(db3a8a2cea5176745abca6059afced47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000519.png using Guid(db3a8a2cea5176745abca6059afced47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67488d62660a26ccf4dc8d0dcc4ce8d6') in 0.102731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000162.png
+  artifactKey: Guid(167cb82169bd76448b5307ab5d41ef33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000162.png using Guid(167cb82169bd76448b5307ab5d41ef33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff6ce4781d060411ff3b21fe4929b71') in 0.105549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000213.png
+  artifactKey: Guid(559fe599c7ecc9b478500d96da8c51ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000213.png using Guid(559fe599c7ecc9b478500d96da8c51ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a56da12b5800190a35d7bf4ffee04f1') in 0.105031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000474.png
+  artifactKey: Guid(59cef290f28a428478baa6f3a33fef8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000474.png using Guid(59cef290f28a428478baa6f3a33fef8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88122051de258e1974fd2bd9e39d215c') in 0.105603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000248.png
+  artifactKey: Guid(dd5abfde86e52fd488743ce23b60abb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000248.png using Guid(dd5abfde86e52fd488743ce23b60abb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f64d4ead1cb5b2a92374b5cbef6d16') in 0.107093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000143.png
+  artifactKey: Guid(431e0e4085389604aad3e476e47bf070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000143.png using Guid(431e0e4085389604aad3e476e47bf070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229e23a1bbdc733855cf0b2875bad915') in 0.101904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000164.png
+  artifactKey: Guid(247b7ec3fb7453d4c92bd3307afd1491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000164.png using Guid(247b7ec3fb7453d4c92bd3307afd1491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263ec6ae0238a45b9f0370dbfbfa13ec') in 0.106884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000154.png
+  artifactKey: Guid(34876a9ceabdd4941af7c8d453879e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000154.png using Guid(34876a9ceabdd4941af7c8d453879e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94382c4b0b87a59f680e4ff66f8774f') in 0.097808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000214.png
+  artifactKey: Guid(8844dceb5622f634ea3adbc53b7e134e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000214.png using Guid(8844dceb5622f634ea3adbc53b7e134e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8acdc715b2ef4f0ab84cb0bbd1974a') in 0.099498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000504.png
+  artifactKey: Guid(4503c6899226a2643aa2221896c95b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000504.png using Guid(4503c6899226a2643aa2221896c95b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a697321ec7c676f091901fb6b44fc793') in 0.098206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000464.png
+  artifactKey: Guid(5b8a69fa0d696b443813014988eee100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000464.png using Guid(5b8a69fa0d696b443813014988eee100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46cf95cd49400b682274f1e9626ca147') in 0.099404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000445.png
+  artifactKey: Guid(46c6a8d763577d64aad5ad56ba284c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000445.png using Guid(46c6a8d763577d64aad5ad56ba284c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e592ae599ee0d3886504bdc24477d80') in 0.101398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000331.png
+  artifactKey: Guid(f9d5ee0c03a3a8146992f1af2bd830d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000331.png using Guid(f9d5ee0c03a3a8146992f1af2bd830d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc00f252e9ff2d881bba8152be868264') in 0.092377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000378.png
+  artifactKey: Guid(65585071add6c864084ea1416f4eeede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000378.png using Guid(65585071add6c864084ea1416f4eeede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '121efd8f4d54ef911b0383c56af0554f') in 0.097928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000328.png
+  artifactKey: Guid(b285960e71ee74641bbb6a7f5710d8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000328.png using Guid(b285960e71ee74641bbb6a7f5710d8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777bd97f6a5c18ff250334ee52a40334') in 0.104002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000189.png
+  artifactKey: Guid(df45e35d6c2b1074a9f2f19c22f6e5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000189.png using Guid(df45e35d6c2b1074a9f2f19c22f6e5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20dd1ac1fecd33317e24519e0edd6fa5') in 0.102866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000209.png
+  artifactKey: Guid(083a02fcf2e5471419d3016302719093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000209.png using Guid(083a02fcf2e5471419d3016302719093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25607a4532e2559f2db2bdbb618d5fa6') in 0.120667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000264.png
+  artifactKey: Guid(8022327a30a41ad46851656e64bf14f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000264.png using Guid(8022327a30a41ad46851656e64bf14f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79b904e9f75bcf03f582f56097540f3') in 0.108251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000259.png
+  artifactKey: Guid(d2df175b5cd09f34ba42dd6f5ec666f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000259.png using Guid(d2df175b5cd09f34ba42dd6f5ec666f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f102b9129eb710dc9955f8ce0b9a2725') in 0.099333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000122.png
+  artifactKey: Guid(7daf8f3c6c7c7a249b57efb657b9cfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000122.png using Guid(7daf8f3c6c7c7a249b57efb657b9cfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd11e544e959f9b8ed23ab10dcab895') in 0.109335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000228.png
+  artifactKey: Guid(06365caa1955cd04a88cf46905cd76a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000228.png using Guid(06365caa1955cd04a88cf46905cd76a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884290deb25c76567bb51a54474fc60a') in 0.119246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000208.png
+  artifactKey: Guid(df0c82ce7d6e8a3448cc1ad58a76cac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000208.png using Guid(df0c82ce7d6e8a3448cc1ad58a76cac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f08bfacc3475e2819190165e4ad11cf') in 0.118912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000535.png
+  artifactKey: Guid(447e8ab8482c815489e01a84507d4ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000535.png using Guid(447e8ab8482c815489e01a84507d4ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8df803f0fd65ca63b6216fa55d354b') in 0.106995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000437.png
+  artifactKey: Guid(525d11e4a06bbbb49b8247c149781288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000437.png using Guid(525d11e4a06bbbb49b8247c149781288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9eb9a83da625154aaef595b2082198') in 0.113600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000390.png
+  artifactKey: Guid(a109cff13d5a7ce43aac7a619cad4741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000390.png using Guid(a109cff13d5a7ce43aac7a619cad4741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b63087107f39269b99dc2e52f418635') in 0.122388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000149.png
+  artifactKey: Guid(6a8fa5f780f91474b8b6ca474d10e1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000149.png using Guid(6a8fa5f780f91474b8b6ca474d10e1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407d5c9531f650026c93515e9de98944') in 0.111714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000291.png
+  artifactKey: Guid(404ee428d3f732843af9362cdf0d995b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000291.png using Guid(404ee428d3f732843af9362cdf0d995b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8399935650d9cb62cb376de8e009fde7') in 0.114000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000298.png
+  artifactKey: Guid(920cb138a27b59c47bc77356c59e1d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000298.png using Guid(920cb138a27b59c47bc77356c59e1d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809361a7c986149fba56cd11ad82e945') in 0.090415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000272.png
+  artifactKey: Guid(ee2af08a44fc2234c889d94c1cad3f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000272.png using Guid(ee2af08a44fc2234c889d94c1cad3f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edae7c42f9a03db9cc7875bb49504554') in 0.102600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000178.png
+  artifactKey: Guid(b442c2561ad7df547b351620efae7a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000178.png using Guid(b442c2561ad7df547b351620efae7a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1931a2a1b3d4e572d5740255eb8234') in 0.103913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000312.png
+  artifactKey: Guid(66b8e09e5c227ba468fc16b83309140f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000312.png using Guid(66b8e09e5c227ba468fc16b83309140f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aeb696bdc56e77f5c87094640ce0791') in 0.096388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000231.png
+  artifactKey: Guid(75dae7c829a79334eb9e0fa0e7a480a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000231.png using Guid(75dae7c829a79334eb9e0fa0e7a480a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d80299d34aa6953beb53ed3549f8e9') in 0.106564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000082.png
+  artifactKey: Guid(ded608facf5a45d4590bb643cc5a7e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000082.png using Guid(ded608facf5a45d4590bb643cc5a7e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f5e3693e21b1db5c6f6a3cd2a16054') in 0.109831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000495.png
+  artifactKey: Guid(d0b4be8649738ce4580b4f7f1711f9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000495.png using Guid(d0b4be8649738ce4580b4f7f1711f9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4866ccbf7fccfdd7880f85b4252911e0') in 0.103025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000336.png
+  artifactKey: Guid(346d41e42165f6b448ba81ce1a0fba2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000336.png using Guid(346d41e42165f6b448ba81ce1a0fba2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae37d77acbd4bdf04e8d4109e68d98c') in 0.108590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000121.png
+  artifactKey: Guid(bcfb24b13f1b026489ee4035d316388b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000121.png using Guid(bcfb24b13f1b026489ee4035d316388b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806ee3c12592b79d001ac0a2e64a6a8a') in 0.092249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000159.png
+  artifactKey: Guid(1fb59e6fb413a4d44a6a5ebe00ef5022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000159.png using Guid(1fb59e6fb413a4d44a6a5ebe00ef5022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b70d7b1f3eed6b61e0aeb132f032d9') in 0.095228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000124.png
+  artifactKey: Guid(3cc5184a182325c42a97a780716842af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000124.png using Guid(3cc5184a182325c42a97a780716842af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff9aa46cf72b4c2f7da262d83433a5f') in 0.093130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000165.png
+  artifactKey: Guid(d25504cd128deea4f9ce6d992ec061d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000165.png using Guid(d25504cd128deea4f9ce6d992ec061d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8d434ccc673589a30447dda5b01fe2') in 0.095014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000453.png
+  artifactKey: Guid(e78f99beeb865f2409a1df35f994f756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000453.png using Guid(e78f99beeb865f2409a1df35f994f756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af408e87669a12bc2ee149d208c2151') in 0.110873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000280.png
+  artifactKey: Guid(55ee9e02ba7e66c40a119e6fcae84ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000280.png using Guid(55ee9e02ba7e66c40a119e6fcae84ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27446172a6d0310d25f4c4c025c51c0e') in 0.095496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000452.png
+  artifactKey: Guid(dede95fcde2b64f4babe508cfb820343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000452.png using Guid(dede95fcde2b64f4babe508cfb820343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eecfa19c96fab2ac71859b5d20e0a89f') in 0.114409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000482.png
+  artifactKey: Guid(6ee5bf907059a404587bab05260bc4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000482.png using Guid(6ee5bf907059a404587bab05260bc4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b800319b1f3ad07f1ce6d6d6f633e6') in 0.102829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000166.png
+  artifactKey: Guid(e1a4fd02318835645839107a9a9c739a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000166.png using Guid(e1a4fd02318835645839107a9a9c739a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a870e1e17f5183570cc96776c6e8ecb0') in 0.090368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000276.png
+  artifactKey: Guid(07f1e7b29a67c1b498ef4720067c830f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000276.png using Guid(07f1e7b29a67c1b498ef4720067c830f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318364fb88f8be4f95f7de1f9d20c4d2') in 0.114369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000409.png
+  artifactKey: Guid(28e7bcf465f0975468b85cd4e336c759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000409.png using Guid(28e7bcf465f0975468b85cd4e336c759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6701ec700ad064e26ac46bdbd2773a3e') in 0.110988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000518.png
+  artifactKey: Guid(a70589e08717d9f4d815e6e1fc8d529f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000518.png using Guid(a70589e08717d9f4d815e6e1fc8d529f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06eaa3da14035f25791490b909698ca0') in 0.122584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000268.png
+  artifactKey: Guid(982e4f1a8ae196048844fbc3aaae042e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000268.png using Guid(982e4f1a8ae196048844fbc3aaae042e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec433946beab2f82654432d4aa5154e') in 0.116284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000176.png
+  artifactKey: Guid(3f52ab2561441254abb01ebb316be9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000176.png using Guid(3f52ab2561441254abb01ebb316be9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0258a67f9917dcc4a22d77a3919f6a') in 0.114843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000476.png
+  artifactKey: Guid(ee091d3235827c0489285e384e7835d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000476.png using Guid(ee091d3235827c0489285e384e7835d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c7c15ad5223dd52293a5cc1fed5ac7') in 0.106315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000524.png
+  artifactKey: Guid(88332df71e087c249a2f6cf02ed3176c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000524.png using Guid(88332df71e087c249a2f6cf02ed3176c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08602902b0b74a797077a78f208ce3f') in 0.107659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000130.png
+  artifactKey: Guid(530b97ca5f9b2ca4ea5ebe2d3059f7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000130.png using Guid(530b97ca5f9b2ca4ea5ebe2d3059f7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b718ad1c27957ce9b34dd672039792ba') in 0.092400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000304.png
+  artifactKey: Guid(a722b2872d74fdd4ab685ef18b7ce78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000304.png using Guid(a722b2872d74fdd4ab685ef18b7ce78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1cfa75dd092745aaf3f0b3b14b26cb1') in 0.099176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000157.png
+  artifactKey: Guid(ff6b62a36d875b542bf19e0b3664a775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000157.png using Guid(ff6b62a36d875b542bf19e0b3664a775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66a371eeb626c0bf1e948fd1f926a41') in 0.116069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000235.png
+  artifactKey: Guid(5e7cf55ee5000a142aaf28ff7d3dcc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000235.png using Guid(5e7cf55ee5000a142aaf28ff7d3dcc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6589db786740a43eafffd6516c1cef8a') in 0.100224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000151.png
+  artifactKey: Guid(1239bb627ce8baf43b4b7f5cc5b2bc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000151.png using Guid(1239bb627ce8baf43b4b7f5cc5b2bc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0a964064071b744a74a9ceb4597b53') in 0.105306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000067.png
+  artifactKey: Guid(eab10ea6fb1ed3643808588df009ffc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000067.png using Guid(eab10ea6fb1ed3643808588df009ffc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5058a517a66fb935d34ba3f67dbee501') in 0.115472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000287.png
+  artifactKey: Guid(30168303b96123d49862cc627b38eabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000287.png using Guid(30168303b96123d49862cc627b38eabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c235d5ac0cfb9bf9b9a962417880ffd') in 0.118151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000203.png
+  artifactKey: Guid(3cd0a925e47411d479a109ae0c485a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000203.png using Guid(3cd0a925e47411d479a109ae0c485a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb0eaf86c6f78721d66fc6556d3c7b5') in 0.105022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000512.png
+  artifactKey: Guid(8ce186c707224a74c8283e2cea4ded5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000512.png using Guid(8ce186c707224a74c8283e2cea4ded5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c61a6de7fcec93e9458e350c729f0d') in 0.104005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000267.png
+  artifactKey: Guid(e99224c3101fc8b4ca23674501757a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000267.png using Guid(e99224c3101fc8b4ca23674501757a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00609de432d57175f33842966356ac08') in 0.097823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000459.png
+  artifactKey: Guid(32ffd998a4e767648b15388ff97da6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000459.png using Guid(32ffd998a4e767648b15388ff97da6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513a99c47ba33f446a376c1d075d7801') in 0.100925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000097.png
+  artifactKey: Guid(5224ceec8359f014e8ff931a9cdea9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000097.png using Guid(5224ceec8359f014e8ff931a9cdea9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4852a8d1b8fd68127848a7012b6aec30') in 0.099423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000471.png
+  artifactKey: Guid(d9577ba534e879f4a829d2cfc37e0155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000471.png using Guid(d9577ba534e879f4a829d2cfc37e0155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530e3d71f75f2237ac9b0395b226d4bb') in 0.122206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000108.png
+  artifactKey: Guid(b70ebccc441f68449a38e4adf5b3198c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000108.png using Guid(b70ebccc441f68449a38e4adf5b3198c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3cb2b5a98adf80a1bf59715492afae') in 0.116975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000093.png
+  artifactKey: Guid(b3b354b8f8e09a549b59bc16b27c4d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000093.png using Guid(b3b354b8f8e09a549b59bc16b27c4d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb90d14a5cf887ca23fdb883d22ed8e') in 0.090433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000234.png
+  artifactKey: Guid(80b74ee99a092de408d7249a62a2d689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000234.png using Guid(80b74ee99a092de408d7249a62a2d689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86705c6caaf002790af7fb169b0ada0b') in 0.108367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000153.png
+  artifactKey: Guid(8669c2c1634a3b24fa1576e265f730cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000153.png using Guid(8669c2c1634a3b24fa1576e265f730cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7506f8bdee3a44a1f522f9ec212c9537') in 0.092436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000480.png
+  artifactKey: Guid(f5ea6feb3a2650f4cb06d9fbad23bc4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000480.png using Guid(f5ea6feb3a2650f4cb06d9fbad23bc4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6389014bc0654fd3eb998bfa61cf89') in 0.105890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000402.png
+  artifactKey: Guid(0e8dd1cf6025dec499567d4e482d713b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000402.png using Guid(0e8dd1cf6025dec499567d4e482d713b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982b9e3d910588793608cfbd12c0f25d') in 0.101870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000109.png
+  artifactKey: Guid(75cf6fb811602904da2323ee4e1e68e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000109.png using Guid(75cf6fb811602904da2323ee4e1e68e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9afd0226b26dfbb18bd7d9bbe73f752d') in 0.109824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000410.png
+  artifactKey: Guid(76c5a7f0a891a514ea38ee7350346e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000410.png using Guid(76c5a7f0a891a514ea38ee7350346e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb4e835fb85c211cab53d8813eddb86') in 0.098189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000103.png
+  artifactKey: Guid(c663dd6efec2e984b99f460ec207c0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000103.png using Guid(c663dd6efec2e984b99f460ec207c0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df0b99e233e74243ed40a27fffdb628') in 0.109133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scenes/MenuLogo/Images/000382.png
+  artifactKey: Guid(4e4d5895e802dab4eb721e70b76dd2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuLogo/Images/000382.png using Guid(4e4d5895e802dab4eb721e70b76dd2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5ee1543dbe77a6807841a5b179326d') in 0.099536 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

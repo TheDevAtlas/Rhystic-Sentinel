@@ -19,6 +19,7 @@ namespace Michsky.MUIP
         public Transform listParent;
         private Animator dropdownAnimator;
         public TextMeshProUGUI setItemText;
+        public CanvasGroup contentCG;
 
         // Settings
         public bool isInteractable = true;
@@ -26,7 +27,7 @@ namespace Michsky.MUIP
         public bool enableIcon = true;
         public bool enableTrigger = true;
         public bool enableScrollbar = true;
-        public bool setHighPriorty = true;
+        public bool setHighPriority = true;
         public bool outOnPointerExit = false;
         public bool isListItem = false;
         public bool invokeAtStart = false;
@@ -102,6 +103,17 @@ namespace Michsky.MUIP
                 triggerEvent.GetComponent<EventTrigger>().triggers.Add(entry);
             }
 
+            if (setHighPriority == true)
+            {
+                if (contentCG == null) { contentCG = transform.Find("Content/Item List").GetComponent<CanvasGroup>(); }
+                contentCG.alpha = 1;
+
+                Canvas tempCanvas = contentCG.gameObject.AddComponent<Canvas>();
+                tempCanvas.overrideSorting = true;
+                tempCanvas.sortingOrder = 30000;
+                contentCG.gameObject.AddComponent<GraphicRaycaster>();
+            }
+
             currentListParent = transform.parent;
             closeOn = gameObject.GetComponent<RectTransform>().sizeDelta.y;
             isInitialized = true;
@@ -138,7 +150,6 @@ namespace Michsky.MUIP
         {
             if (dropdownAnimator == null) { dropdownAnimator = gameObject.GetComponent<Animator>(); }
             if (enableScrollbar == false && scrollbar != null) { Destroy(scrollbar); }
-            if (setHighPriorty == true) { transform.SetAsLastSibling(); }
             if (itemList == null) { itemList = itemParent.GetComponent<VerticalLayoutGroup>(); }
 
             UpdateItemLayout();
@@ -246,7 +257,6 @@ namespace Michsky.MUIP
             else if (enableTrigger == true && isOn == true) { triggerObject.SetActive(true); }
 
             if (enableTrigger == true && outOnPointerExit == true) { triggerObject.SetActive(false); }
-            if (setHighPriorty == true) { transform.SetAsLastSibling(); }
         }
 
         public void CreateNewItem(string title, bool value, bool notify)

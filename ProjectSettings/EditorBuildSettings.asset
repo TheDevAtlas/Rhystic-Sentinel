@@ -6,7 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main.unity
+    path: Assets/Scenes/MainMenu.unity
+    guid: 3c5e78bf5ab3fbc40b8eec149b3f4567
+  - enabled: 1
+    path: Assets/Scenes/MHALegacy.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
-  m_UseUCBPForAssetBundles: 0
