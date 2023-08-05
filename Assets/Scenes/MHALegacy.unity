@@ -1424,7 +1424,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114456614860692064, guid: 564de7c2d2a810042a83a7dc2df23971, type: 3}
       propertyPath: currentWindowIndex
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114456614860692064, guid: 564de7c2d2a810042a83a7dc2df23971, type: 3}
       propertyPath: windows.Array.size
@@ -1676,11 +1676,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 225009663964143306, guid: 564de7c2d2a810042a83a7dc2df23971, type: 3}
       propertyPath: m_Alpha
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 225332743850294180, guid: 564de7c2d2a810042a83a7dc2df23971, type: 3}
       propertyPath: m_Alpha
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 225476101576862624, guid: 564de7c2d2a810042a83a7dc2df23971, type: 3}
       propertyPath: m_Alpha
@@ -11230,11 +11230,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 629431276109507633, guid: 00fb93f398d6ab646b81586940087692, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 629431276109507633, guid: 00fb93f398d6ab646b81586940087692, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 629431276109507633, guid: 00fb93f398d6ab646b81586940087692, type: 3}
       propertyPath: m_SizeDelta.x
@@ -11242,7 +11242,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 629431276109507633, guid: 00fb93f398d6ab646b81586940087692, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 55
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 629431276109507633, guid: 00fb93f398d6ab646b81586940087692, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -11250,7 +11250,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 629431276109507633, guid: 00fb93f398d6ab646b81586940087692, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -27.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1697196041703214058, guid: 00fb93f398d6ab646b81586940087692, type: 3}
       propertyPath: buttonText
@@ -11573,10 +11573,12 @@ MonoBehaviour:
   textBoxs:
   - {fileID: 1355244283}
   - {fileID: 1814793990}
-  beginBlue: <color=#3C854B>
-  endBlue: </color>
   beginOrange: <color=#DA612C>
   endOrange: </color>
+  beginGreen: <color=#6671A5>
+  endGreen: </color>
+  beginBlue: <color=#3C854B>
+  endBlue: </color>
 --- !u!1 &1548492895
 GameObject:
   m_ObjectHideFlags: 0
@@ -12417,10 +12419,12 @@ MonoBehaviour:
   textBoxs:
   - {fileID: 2099254359}
   - {fileID: 238287881}
-  beginBlue: <color=#3C854B>
-  endBlue: </color>
   beginOrange: <color=#DA612C>
   endOrange: </color>
+  beginGreen: <color=#6671A5>
+  endGreen: </color>
+  beginBlue: <color=#3C854B>
+  endBlue: </color>
 --- !u!1 &1814793988
 GameObject:
   m_ObjectHideFlags: 0
@@ -12596,7 +12600,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000045776367, y: -91.1}
+  m_AnchoredPosition: {x: 0.000045776367, y: -101}
   m_SizeDelta: {x: 682.2, y: 176.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1838793353
@@ -12619,10 +12623,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'In order to make text GREEN: Add *Words*
+  m_text: 'In order to make text ORANGE: Add ^Words^
 
-    In order to make text ORANGE:
-    Add ^Words^
+    In order to make text BLUE:
+    Add &Words&
+
+    In order to make text GREEN: Add *Words*
 
     For example ^Enhance:^'
   m_isRightToLeft: 0
@@ -12651,8 +12657,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30.25
-  m_fontSizeBase: 30.25
+  m_fontSize: 29
+  m_fontSizeBase: 29
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -13248,7 +13254,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 250, y: -372}
+  m_AnchoredPosition: {x: 250, y: -356.54}
   m_SizeDelta: {x: 682.2, y: 176.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1960545325

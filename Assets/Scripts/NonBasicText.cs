@@ -10,10 +10,12 @@ public class NonBasicText : MonoBehaviour
     string newString = "";
     string backString = "";
 
-    public string beginBlue;
-    public string endBlue;
     public string beginOrange;
     public string endOrange;
+    public string beginGreen;
+    public string endGreen;
+    public string beginBlue;
+    public string endBlue;
     // Start is called before the first frame update
     public void SetText(string input)
     {
@@ -30,6 +32,7 @@ public class NonBasicText : MonoBehaviour
 
         bool addBlue = false;
         bool addOrange = false;
+        bool addGreen = false;
 
         foreach(char c in i)
         {
@@ -57,6 +60,19 @@ public class NonBasicText : MonoBehaviour
                 {
                     addOrange = false;
                     s += endOrange;
+                }
+            }
+            else if (c.Equals('&'))
+            {
+                if (!addGreen)
+                {
+                    addGreen = true;
+                    s += beginGreen;
+                }
+                else
+                {
+                    addGreen = false;
+                    s += endGreen;
                 }
             }
             else
